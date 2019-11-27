@@ -1,0 +1,124 @@
+body{
+    font-family: Tahoma;
+}
+
+.main{
+    width: 1900px;
+    height: 1080px;
+    background-color: dimgray;
+    margin: 0px auto;
+}
+
+
+aside{
+    background-color: green;
+}
+
+
+
+footer{
+
+    background-color: dimgray;
+}
+
+nav{
+    background-color: #000000;
+}
+
+
+nav>ul{
+    text-align: center;
+    background-color: dimgray;
+    height: 37px;
+}
+
+nav>ul>li{
+    color: black;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    position: relative;
+    top:8px;
+    font-family: Tahoma;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+
+
+.gallerybox{
+    width: 60px;
+    display:inline-block;
+}
+
+.small{
+    width: 60px;
+    height: 60px;
+}
+
+nav>ul>li>a:hover{
+    text-decoration: none;
+    color:#ffffff;
+    text-decoration: underline;
+}
+
+h1{
+    background-color: red;
+}
+
+footer{
+    text-align: center;
+    width: 1000px;
+}
+
+.leftaside{
+    width: 300px;
+    height: 500px;
+    background-color: dimgray  ;
+    float:left;
+
+}
+
+main{
+    background-color: dimgray;
+    width: 1300px;
+    height: 174px;
+    float:left;
+}
+
+
+
+.rightaside{
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    float:left;
+
+}
+
+footer{
+    clear: left;
+}
+
+
+.menu>li{
+    list-style-type: none;
+    font-size: 12px;
+
+}
+
+.menu>li>a{
+    text-decoration: none;
+}
+
+.map{
+    margin-top: 100px;
+    margin-left: 50px;
+    position: absolute;
